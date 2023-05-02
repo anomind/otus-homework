@@ -4,7 +4,7 @@ package homework;
 import java.util.Stack;
 
 public class CustomerReverseOrder {
-   Stack<Customer> stack = new Stack<>();
+   private final Stack<Customer> stack = new Stack<>();
 
     public void add(Customer customer) {
         stack.add(customer);
